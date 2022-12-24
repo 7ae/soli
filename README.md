@@ -16,7 +16,7 @@ Hangul | Soli | RR/MR
 --- | --- | ---
 신라 | sinla | silla, shilla, silra, shinra
 종로 | jonglo | jongro, jongno, jokro, jokno
-떡볶이 | ttougboki | tteokbokki, ttokppokki, topokki, toppogi
+떡볶이 | ttogboki | tteokbokki, ttokppokki, topokki, toppogi
 
 - Soli assigns consistent Latin letters to hangul consonants, whereas RR and MR assign inconsistent Latin letters depending on whether hangul consonants come at the beginning or end of a word: ㄱ, ㄷ, ㄹ and ㅂ are transcribed as _g, d, r, b_ at the beginning of a word, and as _k, t, l, p_ at the end of a word.
 - Soli merges indistinguishable vowels into the same Latin spelling: ㅜ/ㅡ _u_, ㅐ/ㅔ _e_, ㅒ/ㅖ _ye_, ㅙ/ㅚ/ㅞ _oe_ and ᅱ/ᅴ _ui_. By contrast, RR adds an a or e to certain vowels: ㅡ _eu_, ㅐ _ae_ and ᅫ _wae_. This is confusing and leads people to misread ㅡ as _eh-u_ and ㅐ as _ah-eh_.
@@ -53,14 +53,14 @@ Hangul | Soli | RR/MR
     </tr>
     <tr align=center>
       <td>ㅓ</td>
-      <td>ou</td>
+      <td>o</td>
       <td>eo</td>
       <td>ŏ</td>
       <td>e</td>
     </tr>
     <tr align=center>
       <td>ㅕ</td>
-      <td>you</td>
+      <td>yo</td>
       <td>yeo</td>
       <td>yŏ</td>
       <td>ye</td>
@@ -271,8 +271,7 @@ Hangul | Soli | RR/MR
     </tr>
     <tr align=center>
       <td>ㅉ</td>
-      <td>ch</td>
-      <td>jj</td>
+      <td colspan=2>jj</td>
       <td>tch</td>
       <td>cc</td>
     </tr>
@@ -281,18 +280,18 @@ Hangul | Soli | RR/MR
 
 ## Usage
 - Hangul: 콩고물과 우유가 들어간 빙수는 차게 먹어야 특별한 맛이 잘 표현된다
-<br>Soli: Konggomulgwa uyuga dulougan bingsunun chage mougouya tugbyoulhan masi jal pyohyoundoenda
+<br>Soli: Konggomulgwa uyuga dulogan bingsunun chage mogoya tugbyolhan masi jal pyohyondoenda
 - Hangul: 참나무 타는 소리와 야경만큼 밤의 여유를 표현해 주는 것도 없다
-<br>Soli: Chamnamu tanun soliwa yagyoungmankum bamui youyulul pyohyounhe junun goutdo oubtda
+<br>Soli: Chamnamu tanun soliwa yagyongmankum bamui yoyulul pyohyonhe junun gotdo obtda
 - Hangul: 모든 인간은 태어날 때부터 자유로우며 그 존엄과 권리에 있어 평등하다. 인간은 천부적으로 이성과 양심을 부여받았으며 서로 형제애의 정신으로 행동하여야 한다.
-<br>Soli: Modun inganun teounal ttebutou jayuloumyou gu jonoumgwa gwonlie isou pyoungdunghada. Inganun chounbujougulo isounggwa yangsimul buyoubadasumyou soulo hyoungjeeui joungsinulo hengdonghayouya handa.
+<br>Soli: Modun inganun teonal ttebuto jayuloumyo gu jonomgwa gwonlie iso pyongdunghada. inganun chonbujogulo isonggwa yangsimul buyobadasumyo solo hyongjeeui jongsinulo hengdonghayoya handa.
 
 - Cities
 
 Hangul | Soli | Hangul | Soli | Hangul | Soli | Hangul | Soli | Hangul | Soli
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
-서울 | Souul | 부산 | Busan | 인천 | Inchoun | 대구 | Degu | 대전 | Dejoun
-광주 | Gwangju | 수원 | Suwon | 울산 | Ulsan | 춘천 | Chunchoun | 제주 | Jeju
+서울 | Soul | 부산 | Busan | 인천 | Inchon | 대구 | Degu | 대전 | Dejon
+광주 | Gwangju | 수원 | Suwon | 울산 | Ulsan | 춘천 | Chunchon | 제주 | Jeju
 
 - List of regions and provinces
 
@@ -300,29 +299,29 @@ Hangul | Soli | Hangul | Soli | Hangul | Soli | Hangul | Soli | Hangul | Soli
   &nbsp;1. 함북 Hambug
   - 관남 Gwannam<br>
   &nbsp;2. 함남 Hamnam
-  - 관서 Gwansou<br>
-  &nbsp;3. 평북 Pyoungbug<br>
-  &nbsp;4. 평남 Pyoungnam
-  - 해서 Hesou<br>
+  - 관서 Gwanso<br>
+  &nbsp;3. 평북 Pyongbug<br>
+  &nbsp;4. 평남 Pyongnam
+  - 해서 Heso<br>
   &nbsp;5. 황해 Hwanghe
   - 수도권 Sudogwon<br>
-  &nbsp;6. 경기 Gyounggi
+  &nbsp;6. 경기 Gyonggi
   - 관동 Gwandong<br>
   &nbsp;7. 강원 Gangwon
-  - 호서 Hosou<br>
+  - 호서 Hoso<br>
   &nbsp;8. 충북 Chungbug<br>
   &nbsp;9. 충남 Chungnam
   - 호남 Honam<br>
-  &nbsp;10. 전북 Jounbug<br>
-  &nbsp;11. 전남 Jounnam
-  - 영남 Youngnam<br>
-  &nbsp;12. 경북 Gyoungbug<br>
-  &nbsp;13. 경남 Gyoungnam
+  &nbsp;10. 전북 Jonbug<br>
+  &nbsp;11. 전남 Jonnam
+  - 영남 Yongnam<br>
+  &nbsp;12. 경북 Gyongbug<br>
+  &nbsp;13. 경남 Gyongnam
   - 제주 Jeju<br>
   &nbsp;14. 제주 Jeju
 
 - Address
   - Hangul: 서울특별시 서초구 반포대로 59 101동 501호 (서초동, 서초아파트 자이)
-  <br>Soli: Banpodelo 59 Apt 101-501 (Souchodong, Soucho Apartment Jai), Souchogu, Souul, Korea
+  <br>Soli: Banpodelo 59 Apt 101-501 (Sochodong, Socho Apartment Jai), Sochogu, Soul, Korea
   - Hangul: 서울특별시 서초구 반포대로 23길 6 (서초동)
-  <br>Soli: Banpodelo 23 Gil 6 (Souchodong), Souchogu, Souul, Korea
+  <br>Soli: Banpodelo 23 Gil 6 (Sochodong), Sochogu, Soul, Korea
