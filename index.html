@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Soli</title>
+  <link rel="stylesheet" href="./vendor/bootstrap.min.css">
+  <script src="./js/soli.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Soli</h1>
+    <p>
+      Soli is a tool to convert a text from Hangul to Latin alphabet.
+    </p>
+    <form>
+      <div class="form-group mb-2">
+        <label for="input" class="fw-bold small">Hangul</label>
+        <textarea id="input" class="form-control" rows="2"
+          rows="2">모든 인간은 태어날 때부터 자유로우며 그 존엄과 권리에 있어 평등하다. 인간은 천부적으로 이성과 양심을 부여받았으며 서로 형제애의 정신으로 행동하여야 한다.</textarea>
+        <button type="button" class="btn btn-sm btn-success my-1" onclick="convert();">Submit Query</button>
+      </div>
+      <div class="form-group">
+        <label for="output" class="fw-bold small">Romaja (romanization)</label>
+        <textarea id="out" class="form-control" rows="2" readonly></textarea>
+        <button type="button" class="btn btn-sm btn-success my-1" onclick="clipboard();">Copy to
+          Clipboard</button>
+      </div>
+    </form>
+  </div>
+  <!-- @date 2022 -->
+</body>
+
+</html>
