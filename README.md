@@ -1,7 +1,6 @@
-
 # Soli
 
-Soli romanization system accurately represents Hangul sounds with their Latin equivalents.
+Soli is a romanization system for easily writing Hangul with Latin letters.
 
 ## Preview
 
@@ -13,11 +12,11 @@ There are two primary systems for romanizing Korean: the Revised Romanization of
 
 - Soli makes things simpler by giving each Hangul character a single, consistent Latin spelling. In contrast, RR and MR sometimes transcribe Hangul into multiple spellings due to different ways of pronouncing it in Korean.
 
-Hangul | Soli | Other Variations
---- | --- | ---
-신라 | sinla | silla, shilla, silra, shinra
-종로 | jonglo | jongro, jongno, jokro, jokno
-떡볶이 | ttogboki | tteokbokki, ttokppokki, topokki, toppogi
+| Hangul | Soli    | Other Variations                         |
+| ------ | ------- | ---------------------------------------- |
+| 신라   | sinla   | silla, shilla, silra, shinra             |
+| 종로   | jonglo  | jongro, jongno, jokro, jokno             |
+| 떡볶이 | togboki | tteokbokki, ttokppokki, topokki, toppogi |
 
 - Soli gives Hangul consonants a consistent Latin representation. In contrast, RR and MR use different Latin letters for Hangul consonants depending on whether they're at the beginning or end of a word. For example, ㄱ, ㄷ, ㄹ, and ㅂ are transcribed as g, d, r, b at the start, and k, t, l, p at the end.
 - Soli simplifies things by using the same Latin spelling for similar vowels: ㅜ/ㅡ become u, ㅐ/ㅔ become e, ㅒ/ㅖ become ye, ㅙ/ㅚ/ㅞ become oe, and ᅱ/ᅴ become ui. In contrast, RR adds 'a' or 'e' to certain vowels: ㅡ becomes eu, ㅐ becomes ae, and ᅫ becomes wae. This can be confusing and cause people to misread ㅡ as eh-u and ㅐ as ah-eh.
@@ -27,9 +26,11 @@ Hangul | Soli | Other Variations
     <br>RR/MR: Hangeul, Han'gŭl, Han-geul
 
 ### Exceptions
+
 - When ㅅ, ㅈ, ㅊ, or ㅎ are not followed by a vowel, they sound like t: 낮 naj → nat, 햇빛 hesbich → hetbit
 
 ## Hangul Jamo
+
 ### Vowels
 
 <table>
@@ -138,11 +139,13 @@ Hangul | Soli | Other Variations
     </tr>
     <tr align=center>
       <td>ㅘ</td>
-      <td colspan=4>wa</td>
+      <td>oa</td>
+      <td colspan=3>wa</td>
     </tr>
     <tr align=center>
       <td>ㅝ</td>
-      <td colspan=2>wo</td>
+      <td>uo</td>
+      <td>wo</td>
       <td>wŏ</td>
       <td>we</td>
     </tr>
@@ -258,11 +261,13 @@ Hangul | Soli | Other Variations
     </tr>
     <tr align=center>
       <td>ㄸ</td>
-      <td colspan=4>tt</td>
+      <td>t</td>
+      <td colspan=3>tt</td>
     </tr>
     <tr align=center>
       <td>ㅃ</td>
-      <td colspan=4>pp</td>
+      <td>p</td>
+      <td colspan=3>pp</td>
     </tr>
     <tr align=center>
       <td>ㅆ</td>
@@ -271,7 +276,8 @@ Hangul | Soli | Other Variations
     </tr>
     <tr align=center>
       <td>ㅉ</td>
-      <td colspan=2>jj</td>
+      <td>j</td>
+      <td>jj</td>
       <td>tch</td>
       <td>cc</td>
     </tr>
@@ -279,56 +285,57 @@ Hangul | Soli | Other Variations
 </table>
 
 ## Usage
+
 - Hangul: 콩고물과 우유가 들어간 빙수는 차게 먹어야 특별한 맛이 잘 표현된다.
   <p>RR: Konggomulgwa uyuga deureogan bingsuneun chage meogeoya teukbyeolhan masi jal pyohyeondoenda.</p>
   <p>MR: K'onggomulgwa uyuga tŭrŏgan pingsunŭn ch'age mŏgŏya t'ŭkpyŏrhan mashi chal p'yohyŏndoenda.</p>
-  <p>Soli: Konggomulgwa uyuga dulogan bingsunun chage mogoya tugbyolhan masi jal pyohyondoenda.</p>
+  <p>Soli: Konggomulgoa uyuga dulogan bingsunun chage mogoya tugbyolhan masi jal pyohyondoenda.</p>
 - Hangul: 참나무 타는 소리와 야경만큼 밤의 여유를 표현해 주는 것도 없다.
   <p>RR: Chamnamu taneun soriwa yagyeongmankeum bamui yeoyureul pyohyeonhae juneun geotdo eopda.</p>
   <p>MR: Ch'amnamu t'anŭn soriwa yagyŏngmank'ŭm pamŭi yŏyurŭl p'yohyŏnhae chunŭn kŏtto ŏpta.</p>
-  <p>Soli: Chamnamu tanun soliwa yagyongmankum bamui yoyulul pyohyonhe junun gotdo obtda.</p>
+  <p>Soli: Chamnamu tanun solioa yagyongmankum bamui yoyulul pyohyonhe junun gotdo obtda.</p>
 - Hangul: 모든 인간은 태어날 때부터 자유로우며 그 존엄과 권리에 있어 평등하다. 인간은 천부적으로 이성과 양심을 부여받았으며 서로 형제애의 정신으로 행동하여야 한다.
   <p>RR: Modeun inganeun taeeonal ttaebuteo jayuroumyeo geu joneomgwa gwollie isseo pyeongdeunghada. inganeun cheonbujeogeuro iseonggwa yangsimeul buyeobadasseumyeo seoro hyeongjeaeui jeongsineuro haengdonghayeoya handa.</p>
   <p>MR: Modŭn in'ganŭn t'aeŏnal ttaebut'ŏ chayuroumyŏ kŭ chonŏmgwa kwŏllie issŏ p'yŏngdŭnghada. in'ganŭn ch'ŏnbujŏkŭro isŏnggwa yangshimŭl puyŏbadassŭmyŏ sŏro hyŏngjeaeŭi chŏngshinŭro haengdonghayŏya handa.</p>
-  <p>Soli: Modun inganun teonal ttebuto jayuloumyo gu jonomgwa gwonlie iso pyongdunghada. inganun chonbujogulo isonggwa yangsimul buyobadasumyo solo hyongjeeui jongsinulo hengdonghayoya handa.</p>
+  <p>Soli: Modun inganun teonal tebuto jayuloumyo gu jonomgoa guonlie iso pyongdunghada. inganun chonbujogulo isonggoa yangsimul buyobadasumyo solo hyongjeeui jongsinulo hengdonghayoya handa.</p>
 
 - Cities
 
-Hangul | Soli | Hangul | Soli | Hangul | Soli | Hangul | Soli | Hangul | Soli
-:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
-서울 | Soul | 평양 | Pyongyang | 부산 | Busan | 인천 | Inchon | 대구 | Degu
-대전 | Dejon | 광주 | Gwangju | 수원 | Suwon | 울산 | Ulsan | 제주 | Jeju
+| Hangul | Soli  | Hangul |   Soli    | Hangul | Soli  | Hangul |  Soli  | Hangul | Soli |
+| :----: | :---: | :----: | :-------: | :----: | :---: | :----: | :----: | :----: | :--: |
+|  서울  | Soul  |  평양  | Pyongyang |  부산  | Busan |  인천  | Inchon |  대구  | Degu |
+|  대전  | Dejon |  광주  |  Goangju  |  수원  | Suuon |  울산  | Ulsan  |  제주  | Jeju |
 
 - List of regions and provinces
 
-  - 관북 Gwanbug<br>
-  &nbsp;1. 함북 Hambug
-  - 관남 Gwannam<br>
-  &nbsp;2. 함남 Hamnam
-  - 관서 Gwanso<br>
-  &nbsp;3. 평북 Pyongbug<br>
-  &nbsp;4. 평남 Pyongnam
+  - 관북 Goanbug<br>
+    &nbsp;1. 함북 Hambug
+  - 관남 Goannam<br>
+    &nbsp;2. 함남 Hamnam
+  - 관서 Goanso<br>
+    &nbsp;3. 평북 Pyongbug<br>
+    &nbsp;4. 평남 Pyongnam
   - 해서 Heso<br>
-  &nbsp;5. 황해 Hwanghe
-  - 수도권 Sudogwon<br>
-  &nbsp;6. 경기 Gyonggi
-  - 관동 Gwandong<br>
-  &nbsp;7. 강원 Gangwon
+    &nbsp;5. 황해 Hoanghe
+  - 수도권 Sudoguon<br>
+    &nbsp;6. 경기 Gyonggi
+  - 관동 Goandong<br>
+    &nbsp;7. 강원 Ganguon
   - 호서 Hoso<br>
-  &nbsp;8. 충북 Chungbug<br>
-  &nbsp;9. 충남 Chungnam
+    &nbsp;8. 충북 Chungbug<br>
+    &nbsp;9. 충남 Chungnam
   - 호남 Honam<br>
-  &nbsp;10. 전북 Jonbug<br>
-  &nbsp;11. 전남 Jonnam
+    &nbsp;10. 전북 Jonbug<br>
+    &nbsp;11. 전남 Jonnam
   - 영남 Yongnam<br>
-  &nbsp;12. 경북 Gyongbug<br>
-  &nbsp;13. 경남 Gyongnam
+    &nbsp;12. 경북 Gyongbug<br>
+    &nbsp;13. 경남 Gyongnam
   - 제주 Jeju<br>
-  &nbsp;14. 제주 Jeju
+    &nbsp;14. 제주 Jeju
 
 - Address
   - Hangul: 서울특별시 서초구 반포대로 59 101동 501호 (서초동, 서초아파트 자이)
-  <br>Soli: Banpodelo 59 101dong 501ho (Sochodong, Socho Apartment Jai), Sochogu, Soul, Korea
-  <br>Soli: Banpodelo 59 101-501 (Sochodong, Socho Apartment Jai), Sochogu, Soul, Korea
+    <br>Soli: Banpodelo 59 101dong 501ho (Sochodong, Socho Apartment Jai), Sochogu, Soul, Korea
+    <br>Soli: Banpodelo 59 101-501 (Sochodong, Socho Apartment Jai), Sochogu, Soul, Korea
   - Hangul: 서울특별시 서초구 반포대로 23길 6 (서초동)
-  <br>Soli: Banpodelo 23 Gil 6 (Sochodong), Sochogu, Soul, Korea
+    <br>Soli: Banpodelo 23 Gil 6 (Sochodong), Sochogu, Soul, Korea
